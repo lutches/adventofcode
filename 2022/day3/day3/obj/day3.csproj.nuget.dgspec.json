@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukasakefeldt/Documents/Programming/c#/ConsoleApp1/adventofcode/2022/day3/day3/day3.csproj": {}
+    "/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day3/day3/day3.csproj": {}
   },
   "projects": {
-    "/Users/lukasakefeldt/Documents/Programming/c#/ConsoleApp1/adventofcode/2022/day3/day3/day3.csproj": {
+    "/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day3/day3/day3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukasakefeldt/Documents/Programming/c#/ConsoleApp1/adventofcode/2022/day3/day3/day3.csproj",
+        "projectUniqueName": "/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day3/day3/day3.csproj",
         "projectName": "day3",
-        "projectPath": "/Users/lukasakefeldt/Documents/Programming/c#/ConsoleApp1/adventofcode/2022/day3/day3/day3.csproj",
+        "projectPath": "/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day3/day3/day3.csproj",
         "packagesPath": "/Users/lukasakefeldt/.nuget/packages/",
-        "outputPath": "/Users/lukasakefeldt/Documents/Programming/c#/ConsoleApp1/adventofcode/2022/day3/day3/obj/",
+        "outputPath": "/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day3/day3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukasakefeldt/.nuget/NuGet/NuGet.Config"
