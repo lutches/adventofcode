@@ -1,0 +1,15 @@
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/bin/Debug/net8.0/day4
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/bin/Debug/net8.0/day4.deps.json
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/bin/Debug/net8.0/day4.runtimeconfig.json
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/bin/Debug/net8.0/day4.dll
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/bin/Debug/net8.0/day4.pdb
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.AssemblyInfoInputs.cache
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.AssemblyInfo.cs
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.csproj.CoreCompileInputs.cache
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.sourcelink.json
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.dll
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/refint/day4.dll
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.pdb
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/day4.genruntimeconfig.cache
+/Users/lukasakefeldt/Documents/Programming/c#/adventofcode/2022/day4/day4/obj/Debug/net8.0/ref/day4.dll
