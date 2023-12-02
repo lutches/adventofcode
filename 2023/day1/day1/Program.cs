@@ -14,8 +14,6 @@ foreach(string line in data){
     lineints.Add(thisline[0]);
     lineints.Add(thisline[^1]);
     
- 
-
     StringBuilder str = new StringBuilder("",2);
     str.Append(lineints[0]);
     str.Append(lineints[1]);
