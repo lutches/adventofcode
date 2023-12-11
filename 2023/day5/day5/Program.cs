@@ -1,7 +1,4 @@
 ﻿
-using System.Text.Unicode;
-using System.Xml.XPath;
-
 static long respose(long destination, long source, long range, long value){
     if (value > source && value < source+range){
         return destination + (value-source);
@@ -50,11 +47,28 @@ foreach ((Int64,Int64,Int64)[] map in instrucitons){
 Console.WriteLine(seeds.Min());
 
 
-for (int i = 0; i < instrucitons.Length; i++){
-    (long,long,long)[] map = instrucitons[i];
-    foreach ((long,long,long) inst in map){
-        foreach ((long,long,long) nextinst in instrucitons[i+1]){
-            
+
+List<(long,long)> seeds2 = [];
+
+for (int i = 1; i< input[0].Split(' ').Length; i+=2){
+    (long,long) seed2 = (long.Parse(input[0].Split(' ')[i]),(long.Parse(input[0].Split(' ')[i+1])));
+    seeds2.Add(seed2);   
+}
+
+foreach ((Int64,Int64,Int64)[] map in instrucitons){
+    List<(long,long)> possible= [];
+    for(int i = 0; i< seeds2.Count; i++){
+        foreach((Int64,Int64,Int64) inst in map){
+            if (inst.Item2 > seeds2[i].Item1 && inst.Item2 < seeds2[i].Item1 + seeds2[i].Item2){
+                long[] range = [seeds2[i].Item1 + seeds2[i].Item2 - inst.Item2, inst.Item3];
+                (long,long) add = (inst.Item1,range.Min());
+                possible.Add(add);
+            }
+            else if (inst.Item2 < seeds2[i].Item1 && inst.Item2+inst.Item3 > seeds2[i].Item1){
+                long[] range = [inst.Item2 + inst.Item3 - seeds2[i].Item2, seeds2[i].Item2];
+                (long,long) add = (seeds2[i].Item1,range.Min());
+                possible.Add(add);
+            }
         }
     }
 }
